@@ -13,7 +13,9 @@ const choices = ["rock", "paper", "scissors"];
 for (let button of buttons) {
     button.addEventListener("click", function(){
     let playerChoise = this.getAttribute("data-choice");
-    playerGame = (playerChoise);
+    playerGame = (playerChoise)
+
+
 });
 
 }
@@ -24,5 +26,18 @@ function playerGame (playerChoise) {
 }  
 
 let computerChoise = Math.floor(Math.random() * 3);
+
+function computerGame (computerChoise) {
+
 computerImage.src = `assets/images/${choices[computerChoise]}.png`;
 playerImage.alt = choices[computerChoise];
+
+} 
+
+function checkWinner() {
+
+let result = checkWinner(choices[computerChoise], choices[playerChoise]);
+
+} 
+
+

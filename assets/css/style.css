@@ -63,9 +63,10 @@ footer {
 
 .player {
     background-color: cornflowerblue;
-    float: left;
-    width: 45%;
+    display: inline-block;
+    width: 30%;
     border-radius: 30%;
+    
 
 } 
 
@@ -77,11 +78,32 @@ footer {
 .computer {
 
     background-color: #ffc0bf;
-    float: right;
-    width: 45%;
+    display: inline-block;
+    width: 30%;
     border-radius: 30%;
     
 } 
 
 
 /*add media queri */
+
+@media screen and (max-width: 325px){
+
+    .player {
+        background-color: cornflowerblue;
+        display: inline-block;
+        width: 30%;
+        border-radius: 30%;
+    
+    } 
+
+    .computer {
+
+        background-color: #ffc0bf;
+        display: inline-block;
+        width: 30%;
+        border-radius: 30%;
+        
+    } 
+    
+}
