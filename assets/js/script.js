@@ -5,12 +5,6 @@ const playerImage = document.getElementById("player-image");
 const computerImage = document.getElementById("computer-image");
 const messages = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
-let userChoice;
-let computerChoice;
-let result;
-let userscore = 0;
-let computerscore = 0;
-
 
 
 /** 
