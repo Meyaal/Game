@@ -21,6 +21,8 @@ for (let button of buttons) {
 
 }
 
+/** function for playerGame */
+
 function playerGame (playerChoise) {
     playerImage.src = `assets/images/${choices[playerChoise]}.png`;
     playerImage.alt = choices[playerChoise];
@@ -33,12 +35,30 @@ function computerGame (computerChoise) {
 computerImage.src = `assets/images/${choices[computerChoise]}.png`;
 playerImage.alt = choices[computerChoise];
 
-} 
-
-function checkWinner() {
-
 let result = checkWinner(choices[computerChoise], choices[playerChoise]);
 
 } 
 
-
+function checkWinner(computerChoise, playerChoise) {
+    if (computerChoise === playerChoise) {
+        getElementById('winner').innerText = 'Its a tie!';
+    } else if (computerChoise === 'rock' && playerChoise === 'paper') {
+        getElementById('winner').innerText='You Win!';
+    } else if (computerChoise === 'rock' && playerChoise === 'scissors') {
+        getElementById('winner').innerText='You Win!';
+        incrementPlayerScore();
+    } else if(computerChoise === 'rock' && playerChoise === 'scissors') {
+        getElementById('winner').innerText='Computer Wins!';
+        incrementComputerScore();
+    } else if (computerChoise === 'paper' && playerChoise === 'rock') {
+        getElementById('winner').innerText='Computer Wins!';
+        incrementComputerScore();
+    } else if (computerChoise === 'scissors' && playerChoise === 'paper') {
+        getElementById('winner').innerText='Computer Wins!';
+        incrementComputerScore();
+    } else { (computerChoise === 'scissors' && playerChoise === 'rock') ;
+    getElementById('winner').innerText='You Win!';
+    incrementPlayerScore();
+    }
+}
+    
