@@ -34,45 +34,7 @@ footer {
 
 }
 
-.game-area {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    text-align: center;
 
-}   
-
-.control {
-    display: inline-block;
-    margin: 2px;
-    width: 80px;
-    height: 40px;
-    font-style: italic;
-
-} 
-
-#messages {
-    height: 20px;
-
-} 
-
-.player {
-    background-color: rgb(237, 162, 100);
-    display: inline-block;
-
-} 
-
-#player-img {
-    width: 75%;
-} 
-
-
-.computer {
-
-    background-color: #e14542;
-    display: inline-block;
-}
 
 /*add media queri */
 
