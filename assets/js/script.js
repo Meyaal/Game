@@ -7,57 +7,56 @@ const messages = document.getElementById("messages");
 const choices = ["rock", "paper", "scissors"];
 
 
+
 /** 
  * add eventlistner to all the buttons
  */
 
 for (let button of buttons) {
     button.addEventListener("click", function(){
-    let playerChoise = this.getAttribute("data-choise");
-    playerGame = (playerChoise)
-
-
+    let playerChoice = this.getAttribute('data-choice');
+    play(playerChoice);
 });
-
-
+console.log('data-choice');
 }
+
 
 /** function for playerGame */
 
-function playerGame (playerChoise) {
+function playerGame (playerChoice) {
     playerImage.src = `assets/images/${choices[playerChoise]}.png`;
     playerImage.alt = choices[playerChoise];
 }  
 
 let computerChoise = Math.floor(Math.random() * 3);
 
-function computerGame (computerChoise) {
+function computerGame (computerChoice) {
 
-computerImage.src = `assets/images/${choices[computerChoise]}.png`;
-playerImage.alt = choices[computerChoise];
+computerImage.src = `assets/images/${choices[computerChoice]}.png`;
+playerImage.alt = choices[computerChoice];
 
-let result = checkWinner(choices[computerChoise], choices[playerChoise]);
+let result = checkWinner(choices[computerChoice], choices[playerChoice]);
 
 } 
 
-function checkWinner(computerChoise, playerChoise) {
-    if (computerChoise === playerChoise) {
+function checkWinner(computerChoice, playerChoice) {
+    if (computerChoice === playerChoice) {
         getElementById('winner').innerText = 'Its a tie!';
-    } else if (computerChoise === 'rock' && playerChoise === 'paper') {
+    } else if (computerChoice === 'rock' && playerChoice === 'paper') {
         getElementById('winner').innerText='You Win!';
-    } else if (computerChoise === 'rock' && playerChoise === 'scissors') {
+    } else if (computerChoice === 'rock' && playerChoice === 'scissors') {
         getElementById('winner').innerText='You Win!';
         incrementPlayerScore();
-    } else if(computerChoise === 'rock' && playerChoise === 'scissors') {
+    } else if(computerChoice === 'rock' && playerChoice === 'scissors') {
         getElementById('winner').innerText='Computer Wins!';
         incrementComputerScore();
-    } else if (computerChoise === 'paper' && playerChoise === 'rock') {
+    } else if (computerChoice === 'paper' && playerChoice === 'rock') {
         getElementById('winner').innerText='Computer Wins!';
         incrementComputerScore();
-    } else if (computerChoise === 'scissors' && playerChoise === 'paper') {
+    } else if (computerChoice === 'scissors' && playerChoice === 'paper') {
         getElementById('winner').innerText='Computer Wins!';
         incrementComputerScore();
-    } else { (computerChoise === 'scissors' && playerChoise === 'rock') ;
+    } else { (computerChoice === 'scissors' && playerChoice === 'rock') ;
     getElementById('winner').innerText='You Win!';
     incrementPlayerScore();
     }
