@@ -115,11 +115,13 @@ footer {
     display: inline-block;
     font-size: medium;
 
+
 }
 
 .score-area {
     text-align: center;
     font-size: medium;
+
 
 }
 .points {
@@ -130,7 +132,15 @@ footer {
 .player{
     display: inline-block;
     font-size: medium;
-    width: 20%;
+    
+}
+
+.choices {
+    width: 100% ;
+    text-align: center;
+    margin: 3px 0;
+    color: #fff00f;
+    
 }
 
 }
