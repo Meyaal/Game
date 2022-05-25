@@ -7,7 +7,6 @@ const paper_div = document.getElementById("paper");
 const scissors_div = document.getElementById("scissors");
 let playerScore = 0;
 let computerScore = 0;
-const resetButton = document.getElementById("reset-button");
 
 /**
  * Lists the choices
@@ -53,8 +52,7 @@ function tie(playerChoice, computerChoice) {
    document.getElementById(playerChoice).classList.add('tie!');
 }
 
-
-
+// Compares the all of the possible combinations and gives back either win lose or tie
 function game(playerChoice) {
    const computerChoice = getComputerChoice();
    switch(playerChoice + computerChoice) {

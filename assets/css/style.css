@@ -65,6 +65,19 @@ h1, h2 {
     padding: 20px;
 }
 
+#reset-button {
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5vh 0.5vw;
+  text-decoration: none;
+  margin: .2rem;
+  background-color: darkgrey;
+}
+
+
 
 
 /* add style to footer */
