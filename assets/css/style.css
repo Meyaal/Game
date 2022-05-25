@@ -65,6 +65,11 @@ h1, h2 {
     padding: 20px;
 }
 
+#rock:hover, #paper:hover, #scissors:hover {
+  background-color: #a6a6a6;
+  cursor: pointer;
+}
+
 #reset-button {
   display: inline-block;
   cursor: pointer;
