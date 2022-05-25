@@ -22,18 +22,16 @@
         <!-- Score area for points and name tags inside div -->
         <div class="score-area">
 
-            <h2 class="player"> Player</h2>
+            <h2 class="player"> Player Score</h2>
     
             <div class ="points"><span id="player-score">0</span> : <span id="computer-score">0</span></div>
            
-            <h2 class ="computer"> Computer</h2>
+            <h2 class ="computer"> Computer Score</h2>
             <div id="result"></div>
-            <button id="reset-button">reset score</button>
+            <button class="buttons" type="reset" id="reset" onclick="reset()">Refresh</button>
         </div>
-    
-    
-
-    <div class="game-area">
+        </div>
+     <div class="game-area">
         <!-- Icons which act as buttons for the game choices -->
     <div class="choices" >
     
@@ -46,7 +44,6 @@
         <div class="choice" id="scissors">
             <i class="fa-solid fa-hand-scissors" title="Scissors"></i>
          </div>
-       
         
     </div>
 <script src="assets/js/script.js"></script>

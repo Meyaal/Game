@@ -5,6 +5,7 @@ const result_div = document.querySelector("#result");
 const rock_div = document.getElementById("rock");
 const paper_div = document.getElementById("paper");
 const scissors_div = document.getElementById("scissors");
+const resetButton = document.getElementById("reset-button");
 let playerScore = 0;
 let computerScore = 0;
 
@@ -87,3 +88,10 @@ function main() {
 
 main();
 
+// When user clicks on reset button scores will reset
+let reset = function() {
+   playerScore = 0;
+   computerScore = 0;
+   document.getElementById("computer-score").innerHTML = computerScore;
+   document.getElementById("player-score").innerHTML = playerScore;
+};

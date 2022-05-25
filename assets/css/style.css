@@ -27,7 +27,7 @@ h1, h2 {
 
 .score-area {
     text-align: center;
-    font-size: 3rem;
+    font-size: 20px;
 }
 .points {
     border: solid 2px;
@@ -36,13 +36,13 @@ h1, h2 {
 }
 .player{
     display: inline-block ;
-    font-size: 3rem;
+    font-size: 30px;
     margin-right: 20px;
     width: 20%;
 }
 .computer {
     display: inline-block; 
-    font-size: 3rem;
+    font-size: 30px;
     margin-left: 20px;
     width: 20%;
 }
@@ -77,14 +77,9 @@ h1, h2 {
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.5vh 0.5vw;
-  text-decoration: none;
   margin: .2rem;
   background-color: darkgrey;
 }
-
-
-
-
 /* add style to footer */
  
 footer {
@@ -109,5 +104,33 @@ footer {
         color: #000;
         background-color: #fff00f;
  }
+
+ .choices {
+    width: 100% ;
+    text-align: center;
+    color: #fff00f;
+    
+}
+.computer {
+    display: inline-block;
+    font-size: medium;
+
+}
+
+.score-area {
+    text-align: center;
+    font-size: medium;
+
+}
+.points {
+    border: solid 2px;
+    display: inline-block;
+}
+
+.player{
+    display: inline-block;
+    font-size: medium;
+    width: 20%;
+}
 
 }
