@@ -35,12 +35,15 @@ function generateComputerChoice() {
 
 function decideWinner(playerChoice, computerChoice) {
    if(playerChoice === "paper" && computerChoice === "paper") {
-   result = "Its a tie!"
-} else (playerChoice === "rock" && computerChoice === "paper") 
-   result = "player win!"
-  } if(playerChoice === "rock" && computerChoice === "scissors") {
-   result = "you lost!"
-}
+      result = "Its a tie!"
+    } else if (playerChoice === "rock" && computerChoice === "paper") 
+      result = "player win!"
+     } if(playerChoice === "rock" && computerChoice === "scissors") 
+      result = "you lost!"
+   
+   
+   
+
 console.log(decideWinner);
 
    function main () {

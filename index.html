@@ -20,17 +20,19 @@
 
 
         <!-- Score area for points and name tags inside div -->
-    <div class="score-area">
+        <div class="score-area">
 
-        <h2 class="player"> Player</h2>
+            <h2 class="player"> Player</h2>
+    
+            <div class ="points"><span id="player-score">0</span> : <span id="computer-score">0</span></div>
+           
+            <h2 class ="computer"> Computer</h2>
+            <div id="result"></div>
+        </div>
+    
+    
 
-        <div class ="points"><span id="player-score">0</span> : <span id="computer-score">0</span></div>
-       
-        <h2 class ="computer"> Computer</h2>
-        <div id="result">Result</div>
-    </div>
-
-    <div class="game">
+    <div class="game-area">
         <!-- Icons which act as buttons for the game choices -->
     <div class=" choices" >
     
@@ -43,13 +45,6 @@
         <div class="choice" id="scissors">
             <i class="fa-solid fa-hand-scissors" title="Scissors"></i>
          </div>
-         <!--div to display who won-->
-        <div class="container">
-
-            <h2 id="player-win">You Win!</h2>
-            <h2 id="player-lose">Computer Wins!</h2>
-            <h2 id="tie">It's a Tie!</h2>
-        </div>
        
         
     </div>
