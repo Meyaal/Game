@@ -8,6 +8,7 @@ html {
 body {
     font-family: 'roboto', sans-serif;
     margin: 0;
+    background-color: beige;
 
 }
 
@@ -70,14 +71,12 @@ h1, h2 {
   cursor: pointer;
 }
 
-#reset-button {
+#reset {
   display: inline-block;
-  cursor: pointer;
   color: #000000;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 0.5vh 0.5vw;
-  margin: .2rem;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 30px;
   background-color: darkgrey;
 }
 /* add style to footer */
@@ -105,8 +104,8 @@ footer {
         background-color: #fff00f;
  }
 
- .choices {
-    width: 100% ;
+ .choice {
+    font-size: 3rem;
     text-align: center;
     color: #fff00f;
     
