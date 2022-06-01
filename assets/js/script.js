@@ -9,11 +9,9 @@ const resetButton = document.getElementById("reset-button");
 let playerScore = 0;
 let computerScore = 0;
 
-/**
- * Lists the choices
- * and generates the computer choice by using a random number from the array of choices
- */  
- function getComputerChoice() {
+/*Generate computer choice by random */
+ 
+function getComputerChoice() {
    const choices = ['rock', 'paper', 'scissors'];
    const randomNumber =Math.floor(Math.random()*choices.length);
    return choices[randomNumber];
@@ -22,38 +20,42 @@ let computerScore = 0;
 // Gets computer choice
 (getComputerChoice());
 
-/**
- * Finds the player score and increments it
- * inserts the result string into the result section
- */
-
+function convertToWord(word) {
+   if (word === "rock") return "Rock";
+   if (word === "paper") return "Paper";
+   return "Scissors";
+}
+/* outcome function for player win
+* increment score
+*/
 function win(playerChoice, computerChoice) {
    playerScore++;
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
-   document.getElementById(playerChoice).classList.add('winner');
-}
-
+   result_div.innerHTML = `${convertToWord(playerChoice)} beats ${convertToWord(computerChoice)}, You Win!`;
+} 
 /**
- * Finds the computer score and increments it
- * inserts the result string into the result section
-*/
+  * outcome function for player lose and computer win
+  * increment score 
+  **/
 
 function lose(playerChoice, computerChoice) {
    computerScore++;
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
-   document.getElementById(playerChoice).classList.add('loser');
+   result_div.innerHTML = `${convertToWord(playerChoice)} lose to ${convertToWord(computerChoice)}, You lost!`;
 }  
 
-// Maintains the score and displays a string in the result
+
+ //  outcome function for a tie!
+ 
 function tie(playerChoice, computerChoice) {
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
-   document.getElementById(playerChoice).classList.add('tie!');
+   result_div.innerHTML = `${convertToWord(playerChoice)} equals ${convertToWord(computerChoice)}, Tie!`;
 }
 
-// Compares the all of the possible combinations and gives back either win lose or tie
+// Compares all of the possible combinations and returns back either win lose or tie
 function game(playerChoice) {
    const computerChoice = getComputerChoice();
    switch(playerChoice + computerChoice) {
