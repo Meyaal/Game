@@ -17,7 +17,6 @@ header {
     word-spacing: 10px;
     font-style: italic;
     font-size: 1rem;
-    padding: 10px;
 }
 /* add color to headings */
 
@@ -52,19 +51,17 @@ h1, h2 {
 
 /* Styles the icons which act as buttons for each game choice*/
 .choices {
-    width: 100%;
     text-align: center;
     margin: 5% 0;
-    padding-bottom: 5%;
     color: #fff00f;
 }
 .choice {
     display: inline-block;
     font-size: 50px;
-    border: 3px solid red;
+    border: 2px solid;
     margin: 0 20px;
-    padding: 20px;
     border-radius: 50%;
+    padding: 20px;
 }
 
 #rock:hover, #paper:hover, #scissors:hover {
@@ -106,19 +103,19 @@ footer {
  }
 
  .choice {
-    font-size: 3rem;
     text-align: center;
     color: #fff00f;
+    font-size: 2rem;
     
 }
 .computer {
     display: inline-block;
-    font-size: medium;
+    font-size: small;
 }
 
 .score-area {
     text-align: center;
-    font-size: medium;
+    font-size: small;
 }
 .points {
     border: solid 2px;
@@ -126,13 +123,12 @@ footer {
 }
 .player{
     display: inline-block;
-    font-size: medium;
+    font-size: small;
 }
 
 .choices {
     width: 100% ;
     text-align: center;
-    margin: 3px 0;
     color: #fff00f;
     
 }
