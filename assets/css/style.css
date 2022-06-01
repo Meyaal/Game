@@ -93,7 +93,7 @@ footer {
 /*add media queri */
 
 @media screen and (max-width: 345px){
-
+     
     footer {
         position: absolute;
         box-sizing: border-box;
@@ -105,7 +105,7 @@ footer {
  .choice {
     text-align: center;
     color: #fff00f;
-    font-size: 2rem;
+    font-size: small;
     
 }
 .computer {
