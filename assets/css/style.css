@@ -69,6 +69,21 @@ h1, h2 {
   cursor: pointer;
 }
 
+.win {
+    border: 5px solid #3bff00;
+    box-shadow: 3px 3px 10px #3e3e3e;
+  }
+  
+  .lose {
+    border: 5px solid #ff0000;
+    box-shadow: 3px 3px 10px #3e3e3e;
+  }
+  
+  .tie {
+    border: 5px solid #464647;
+    box-shadow: 3px 3px 10px #3e3e3e;
+  }
+
 #reset {
   display: inline-block;
   color: #000000;

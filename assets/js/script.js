@@ -33,6 +33,8 @@ function win(playerChoice, computerChoice) {
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
    result_div.innerHTML = `${convertToWord(playerChoice)} beats ${convertToWord(computerChoice)}, You Win!`;
+   document.getElementById(playerChoice).classList.add('win');
+   setTimeout(function (){document.getElementById(playerChoice).classList.remove('win');} , 400);
 } 
 /**
   * outcome function for player lose and computer win
@@ -44,6 +46,8 @@ function lose(playerChoice, computerChoice) {
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
    result_div.innerHTML = `${convertToWord(playerChoice)} lose to ${convertToWord(computerChoice)}, You lost!`;
+   document.getElementById(playerChoice).classList.add('lose');
+   setTimeout(function (){document.getElementById(playerChoice).classList.remove('lose');} , 400);
 }  
 
 
@@ -53,6 +57,8 @@ function tie(playerChoice, computerChoice) {
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
    result_div.innerHTML = `${convertToWord(playerChoice)} equals ${convertToWord(computerChoice)}, Tie!`;
+   document.getElementById(playerChoice).classList.add('tie');
+    setTimeout(function() {document.getElementById(playerChoice).classList.remove('tie'); }, 400);
 }
 
 // Compares all of the possible combinations and returns back either win lose or tie
