@@ -18,11 +18,14 @@ header {
     font-style: italic;
     font-size: 1rem;
 }
+
 /* add color to headings */
 
 h1, h2 {
-    color: coral;
+    color: #ff0000;
 }
+
+/* add style to playarea */
 
 .score {
   text-align: center;
@@ -53,7 +56,7 @@ h1, h2 {
 .choices {
     text-align: center;
     margin: 5% 0;
-    color: #fff00f;
+    color: #000000;
 }
 .choice {
     display: inline-block;
@@ -64,13 +67,16 @@ h1, h2 {
     padding: 20px;
 }
 
+/* add hover to icons */
 #rock:hover, #paper:hover, #scissors:hover {
-  background-color: #a6a6a6;
+  background-color: #ff7f50;
   cursor: pointer;
 }
 
+/* create classes to shadow to the icons border to know what the result was */
+
 .win {
-    border: 5px solid #3bff00;
+    border: 5px solid #008000;
     box-shadow: 3px 3px 10px #3e3e3e;
   }
   
@@ -119,7 +125,7 @@ footer {
 
  .choice {
     text-align: center;
-    color: #fff00f;
+    color: #000;
     font-size: small;
     
 }
@@ -144,7 +150,7 @@ footer {
 .choices {
     width: 100% ;
     text-align: center;
-    color: #fff00f;
+    color: #000000;
     
 }
 

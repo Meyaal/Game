@@ -32,7 +32,7 @@ function win(playerChoice, computerChoice) {
    playerScore++;
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
-   result_div.innerHTML = `${convertToWord(playerChoice)} beats ${convertToWord(computerChoice)}, You Win!`;
+   result_div.innerHTML = `${convertToWord(playerChoice)} beats ${convertToWord(computerChoice)}, You Win! "😁"`;
    document.getElementById(playerChoice).classList.add('win');
    setTimeout(function (){document.getElementById(playerChoice).classList.remove('win');} , 400);
 } 
@@ -45,7 +45,7 @@ function lose(playerChoice, computerChoice) {
    computerScore++;
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
-   result_div.innerHTML = `${convertToWord(playerChoice)} lose to ${convertToWord(computerChoice)}, You lost!`;
+   result_div.innerHTML = `${convertToWord(playerChoice)} lose to ${convertToWord(computerChoice)}, You lost! "😩"`;
    document.getElementById(playerChoice).classList.add('lose');
    setTimeout(function (){document.getElementById(playerChoice).classList.remove('lose');} , 400);
 }  
@@ -56,7 +56,7 @@ function lose(playerChoice, computerChoice) {
 function tie(playerChoice, computerChoice) {
    playerScore_span.innerHTML = playerScore;
    computerScore_span.innerHTML = computerScore;
-   result_div.innerHTML = `${convertToWord(playerChoice)} equals ${convertToWord(computerChoice)}, Tie!`;
+   result_div.innerHTML = `${convertToWord(playerChoice)} equals ${convertToWord(computerChoice)}, Tie! "🙈"`;
    document.getElementById(playerChoice).classList.add('tie');
     setTimeout(function() {document.getElementById(playerChoice).classList.remove('tie'); }, 400);
 }
