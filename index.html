@@ -30,18 +30,7 @@
             <button class="buttons" type="reset" id="reset" onclick="reset()">Refresh</button>
         </div>
         </div>
-        <!--Modal to show who won game-->
-        <div id="gameOver" class="modal"> 
-
-            <div class ="modal-content">
-                <span class="close" onclick="giveUp()">&times;</span>
-                <h2 id ="player-win">You won the game!</h2>
-                <h2 id="player-lose">The computer won the game!</h2>
-                <!-- This button gives an option to restart game -->
-                <button onclick="restart()">Restart!</button>
-            </div>
-
-        </div>
+        <!--div for game area-->
      <div class="game-area">
         <!-- Icons which act as buttons for the game choices -->
     <div class="choices" >
@@ -57,10 +46,12 @@
          </div>
         
     </div>
+    <!--link to javascript file-->
 <script src="assets/js/script.js"></script>
 </body>
 
 <br>
+<!--footer includes rules for the game-->
 <footer>
     <h3>Rules</h3>
     <p>Scissors cut Paper | Paper covers Rock | Rock blunts Scissors</p>

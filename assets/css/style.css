@@ -13,9 +13,9 @@ body {
 
 header {
     text-align: center;
-    height: 50px;
     word-spacing: 10px;
     font-style: italic;
+    font-family: roboto, sans-serif;
     font-size: 1rem;
 }
 
@@ -155,7 +155,11 @@ footer {
 }
 /*add media queri */
 
-@media screen and (max-width: 345px){
+@media screen and (max-width: 314px){
+
+  header {
+    font-size: .7rem
+}
      
     footer {
         position: absolute;
@@ -183,6 +187,7 @@ footer {
 .points {
     border: solid 2px;
     display: inline-block;
+    font-size: .7rem;
 }
 .player{
     display: inline-block;
@@ -194,6 +199,51 @@ footer {
     text-align: center;
     color: #000000;
     
+}
+
+}
+
+@media screen and (max-width: 345px) {
+
+  header {
+    font-size: 0.5rem;
+}
+  .computer {
+    display: inline-block;
+    font-size: 0.5rem;
+    margin-left: 2%;
+} 
+.player{
+  display: inline-block;
+  font-size: 0.5rem;
+}
+.points {
+  border: solid 2px;
+  display: inline-block;
+  font-size: 0.7rem;
+}
+}
+
+@media screen and (max-width: 420px) {
+
+header {
+  font-size: 0.5;
+
+}
+.score-area {
+  font-size: 1rem;
+}
+.player {
+  font-size: 1rem;
+  
+}
+
+.computer {
+  font-size: 1rem;
+  
+}
+.choice {
+  font-size: 1rem;
 }
 
 }
