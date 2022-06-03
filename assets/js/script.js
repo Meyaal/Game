@@ -83,7 +83,7 @@ function game(playerChoice) {
          }
          
       }
-      gameEnd();
+      game();
    
 
 // Add event listeners to all icons
@@ -96,3 +96,11 @@ function main() {
 }
 
 main();
+
+// When user clicks on reset button scores will reset
+function reset() {
+   playerScore = 0;
+   computerScore = 0;
+   document.getElementById("computer-score").innerHTML = computerScore;
+   document.getElementById("player-score").innerHTML = playerScore;
+}
