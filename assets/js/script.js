@@ -81,9 +81,9 @@ function game(playerChoice) {
            tie(playerChoice, computerChoice);
            break;
          }
-      };
-   
-   game();
+         
+      }
+      game();
 
 // Add event listeners to all icons
 function main() {
@@ -96,10 +96,57 @@ function main() {
 
 main();
 
+// limit the game and end when either the user or computer gets to 5 points
+function gameEnd() {
+   if (playerScore === 5){
+       playerWin();
+       playerScore = 0;
+       computerScore = 0; 
+   }
+   if (computerScore === 5){
+       computerWin();
+       playerScore = 0;
+       computerScore = 0;
+       
+   }
+}
+
+// Styles the pop up message if the computer wins 
+function computerWin() {
+   document.getElementById('gameOver').style.display="block";
+   document.getElementById('player-win').style.display ="none";
+   document.getElementById('player-lose').style.display ="block";
+}
+// Styles the pop up message when the player wins
+function playerWin(){
+   document.getElementById('gameOver').style.display ="block";
+   document.getElementById('player-lose').style.display ="none";
+   document.getElementById('player-win').style.display ="block";
+}
+// Rmoves the pop up messages and resets the score 
+function restart() {
+   document.getElementById('gameOver').style.display="none";
+   document.getElementById('player-win').style.display ="none";
+   document.getElementById('player-lose').style.display ="none";
+   resetScore();
+}
 // When user clicks on reset button scores will reset
-let reset = function() {
+function reset() {
    playerScore = 0;
    computerScore = 0;
    document.getElementById("computer-score").innerHTML = computerScore;
    document.getElementById("player-score").innerHTML = playerScore;
-};
+}
+
+// Get the modal
+const modal = document.getElementById("myModal");
+
+// Gets the <span> element that closes the modal
+const span = document.getElementsByClassName("close")[0];
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+   if (event.target == modal) {
+     modal.style.display = "none";
+   }
+ }

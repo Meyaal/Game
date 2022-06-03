@@ -31,14 +31,14 @@
         </div>
         </div>
         <!--Modal to show who won game-->
-        <div id="myModal" class="modal"> 
+        <div id="gameOver" class="modal"> 
 
             <div class ="modal-content">
                 <span class="close" onclick="giveUp()">&times;</span>
-                <h2 id = "player-win">You won game!</h2>
-                <h2 id="player-lose">The computer won game!</h2>
+                <h2 id ="player-win">You won the game!</h2>
+                <h2 id="player-lose">The computer won the game!</h2>
                 <!-- This button gives an option to restart game -->
-                <button onclick="playAgain()">restart!</button>
+                <button onclick="restart()">Restart!</button>
             </div>
 
         </div>
@@ -65,7 +65,4 @@
     <h3>Rules</h3>
     <p>Scissors cut Paper | Paper covers Rock | Rock blunts Scissors</p>
 </footer>
-
-
-
 </html>
