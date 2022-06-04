@@ -81,11 +81,10 @@ function game(playerChoice) {
            tie(playerChoice, computerChoice);
            break;
          }
-         
+         checkWinner();
       }
-      game();
+         
    
-
 // Add event listeners to all icons
 function main() {
    rock_div.addEventListener('click', () => game("rock"));
@@ -97,10 +96,25 @@ function main() {
 
 main();
 
+function checkWinner() {
+   if (playerScore === 5){
+       playerScore = 0;
+       computerScore = 0; 
+       alert('You have won the match!');
+   }
+   if (computerScore === 5){
+       playerScore = 0;
+       computerScore = 0;
+       alert('You have lost the match! Computer Won!');
+       
+   }
+}
+
 // When user clicks on reset button scores will reset
 function reset() {
    playerScore = 0;
    computerScore = 0;
    document.getElementById("computer-score").innerHTML = computerScore;
    document.getElementById("player-score").innerHTML = playerScore;
+
 }
