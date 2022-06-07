@@ -176,7 +176,7 @@ footer {
 @media screen and (max-width: 420px) {
 
 header {
-  font-size: 0.5;
+  font-size: 0.5rem;
 
 }
 .score-area {
