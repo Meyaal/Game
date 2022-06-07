@@ -119,11 +119,17 @@ You'll find the link here
 
 # Credits 
 
-[W3Schools](https://www.w3schools.com/) Help with CSS colors.
+[W3Schools](https://www.w3schools.com/) Help with CSS Colors.
 
-[whatsdev](https://www.youtube.com/watch?v=qipq1BV5myU) This tutorial was helpful for mig to build my game.
+[whatsdev](https://www.youtube.com/watch?v=qipq1BV5myU) This tutorial was very helpful for mig to build my game. I followed it step by step. 
 
 [Github](https://github.com/) Help with add a limited number of tries before the game is over and a message about who won the game.
+
+# Acknowledgements
+
+I'll thank my mentor Martina Terlević for inspiration and support.
+
+I'll thank Code Institute tutors for their assistance in getting me this far in the course. All the folk in the Code Institute Slack for their invaluable input to their fellow members development.
 
 
 
