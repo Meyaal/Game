@@ -72,6 +72,11 @@ In addition Green and Red were used as a box-shadowing to indicate whether the u
 
 
 # Future Features
+* I plan to add a modal-box so the user gets a pop up message which contains a button to play again.
+* I would like to implement a countdown and a Start Game button.
+* I would like to add a button for Play again. 
+
+
 
 
 # Technologies Used
