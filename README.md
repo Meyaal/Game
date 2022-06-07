@@ -2,9 +2,11 @@
 
 
 
-### Live webbsite 
+### Live webbsite [Here](https://meyaal.github.io/Game/)
 
-* ### A link to the live website can be found Here
+Inline-style: 
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-07%20kl.%2016.47.22.png)
+
 
 # UX
 
