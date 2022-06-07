@@ -2,7 +2,7 @@
 
 
 
-# Live webbsite 
+### Live webbsite 
 
 * ### A link to the live website can be found Here
 
@@ -114,13 +114,12 @@ In addition Green and Red were used as a box-shadowing to indicate whether the u
 
 ## GitHub Pages
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-You'll find the link here
- 
+
 
 # Credits 
 
