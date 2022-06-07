@@ -119,8 +119,13 @@ You'll find the link here
 
 # Credits 
 
-[W3Schools](https://www.w3schools.com/)
-[]
+[W3Schools](https://www.w3schools.com/) Help with CSS colors.
+
+[whatsdev](https://www.youtube.com/watch?v=qipq1BV5myU) This tutorial was helpful for mig to build my game.
+
+[Github](https://github.com/) Help with add a limited number of tries before the game is over and a message about who won the game.
+
+
 
 
 
