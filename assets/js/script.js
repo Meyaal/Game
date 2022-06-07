@@ -100,12 +100,12 @@ function checkWinner() {
    if (playerScore === 5){
        playerScore = 0;
        computerScore = 0; 
-       alert('You have won the match!');
+       alert('You have won the game!');
    }
    if (computerScore === 5){
        playerScore = 0;
        computerScore = 0;
-       alert('You have lost the match! Computer Won!');
+       alert('You have lost the game! Computer Won!');
        
    }
 }

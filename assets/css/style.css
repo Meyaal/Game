@@ -8,7 +8,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 
 header {
@@ -17,6 +17,8 @@ header {
     font-style: italic;
     font-family: roboto, sans-serif;
     font-size: 1rem;
+    background-color: #fff00f;
+    padding: 5px 10px;
 }
 
 /* add color to headings */
@@ -38,18 +40,19 @@ h1, h2 {
     display: inline-block;
     text-align: center;
     width: 30%;
+    font-size: 1.5rem;
 }
 .player{
     display: inline-block;
     width: 20%;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .computer {
     display: inline-block;
     width: 20%;
     text-align: center;
-    margin-left: 40px;
+    margin-right: 20px;
 }
 
 /* Styles the icons which act as buttons for each game choice*/
@@ -57,6 +60,7 @@ h1, h2 {
     text-align: center;
     margin: 5% 0;
     color: #000000;
+    padding-bottom: 5%;
 }
 .choice {
     display: inline-block;
@@ -97,6 +101,7 @@ h1, h2 {
   margin: 4px;
   background-color: #fff00f;
 }
+
 /* add style to footer */
  
 footer {
@@ -107,48 +112,37 @@ footer {
     padding-bottom: 30px;
     box-sizing: border-box;
     text-align: center;
-    color: #000;
+    color: #ff0000;
     background-color: #fff00f;
 }
 /*add media queri */
 
-@media screen and (max-width: 314px){
+@media screen and (max-width: 285px){
 
   header {
-    font-size: .7rem
+    font-size: .5rem
 }
-     
-    footer {
-        position: absolute;
-        box-sizing: border-box;
-        text-align: center;
-        color: #000;
-        background-color: #fff00f;
- }
 
  .choice {
     text-align: center;
-    color: #000;
-    font-size: small;
+    font-size: .5rem;
     
 }
 .computer {
-    display: inline-block;
-    font-size: small;
+    
+    font-size: .5rem;
 }
 
 .score-area {
     text-align: center;
-    font-size: small;
+    font-size: .5rem;
 }
 .points {
     border: solid 2px;
-    display: inline-block;
-    font-size: .7rem;
+    font-size: .5rem;
 }
 .player{
-    display: inline-block;
-    font-size: small;
+    font-size: .5rem;
 }
 
 .choices {
@@ -163,20 +157,18 @@ footer {
 @media screen and (max-width: 345px) {
 
   header {
-    font-size: 0.5rem;
+    font-size: .5rem;
 }
   .computer {
-    display: inline-block;
     font-size: 0.5rem;
     margin-left: 3%;
 } 
 .player{
-  display: inline-block;
   font-size: 0.5rem;
 }
 .points {
   border: solid 2px;
-  display: inline-block;
+  flex-direction: column;
   font-size: 0.7rem;
 }
 }

@@ -4,57 +4,57 @@
 
 # Live webbsite 
 
-### A link to the live website can be found Here
+* ### A link to the live website can be found Here
 
 # UX
 
 # User Goals
-1. The game is easy to navigate and use on all platforms.
-2. The game is fun and competitive.
-3. The game appearance is clear and has happy colors.
-4. The game should work without faults.
+* The game is easy to navigate and use on all platforms.
+* The game is fun and competitive.
+*  The game appearance is clear and has happy colors.
+*  The game should work without faults.
 
 # User Stories
-1. As a First time user, I want to easily understand the main purpose of the site.
-2. As a fisrt time user I want a simple but effective way of making my choices while playing the game.
-2. As a first time user, I want to play a game intuitively and easily.
-3. As a user, I want the game to be modern and cool in design.
-4. As a First Time user, I want to see the scores of the game to understand which user is winning or losing.
+* As a First time user, I want to easily understand the main purpose of the site.
+* As a fisrt time user I want a simple but effective way of making my choices while playing the game.
+* As a first time user, I want to play a game intuitively and easily.
+* As a user, I want the game to be modern and cool in design.
+* As a First Time user, I want to see the scores of the game to understand which user is winning or losing.
 
 # Site Owner's Goals
-1. I want to create a functional and simple game that is fun and easy to use.
-2. I want to create a well designed game.
-3. I wanted to write code and functions that follows best practice. The code is easy to follow.
-4. I wanted to learn how to build this game specific. 
+* I want to create a functional and simple game that is fun and easy to use.
+* I want to create a well designed game.
+* I wanted to write code and functions that follows best practice. The code is easy to follow.
+* I wanted to learn how to build this game specific. 
 
 # Requirements
 
-1. The game is Easy to play and understand.
-2. The game should work on different device and browser.
-3. The game should be fun and competitive.
-4. The game should be quick to load. 
+* The game is Easy to play and understand.
+* The game should work on different device and browser.
+* The game should be fun and competitive.
+* The game should be quick to load. 
 
 # Design 
 
-## Fonts 
+* ## Fonts 
 
 Google fonts were used to import the font into the style.css file which is used on all pages throughout the project. The font used in this project was Roboto.
 
-## Icons 
+* ## Icons 
 
 I used the icons from Font Awsome Library. These icons seemed modern and easy to demonstrate the choices for the game.
 
-## Colors
+* ## Colors
 
-I used css colors for the game. 
+I used css colors from W3Schools for the game. 
 
-Color for body: 
+* Background-color for body: #f5f5dc;
 
-Color for the headings: 
+* Background-color for the footer and header: #fff00f;
 
-Color for the footer: 
+* Color for the headings: #ff0000;
 
-Color for icons: 
+* Color for points and icons: #000;
 
 In addition Green and Red were used as a box-shadowing to indicate whether the user answered corretly or incorrectly. The grey color was used to indicate a draw.
 
@@ -72,6 +72,57 @@ In addition Green and Red were used as a box-shadowing to indicate whether the u
 
 
 # Future Features
+
+
+# Technologies Used
+
+## Languages
+
+. HTML
+
+. CSS
+
+. Javascript
+
+# Libraries & Framework
+
+[Google fonts](https://fonts.google.com/) 
+
+[Font Awesome](https://fontawesome.com/) 
+
+# Tools
+
+[Github](https://github.com/)
+
+[Gitpod](https://gitpod.io)
+
+[The W3C Markup Validation Service](https://validator.w3.org/) 
+
+[CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+
+[JSHint](https://jshint.com/)
+
+
+# Deployment
+
+### After finishing the majority of the project I deployed the site on GitHub using the following steps:
+
+## GitHub Pages
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+You'll find the link here
+ 
+
+# Credits 
+
+[W3Schools](https://www.w3schools.com/)
+[]
+
+
 
 
 
