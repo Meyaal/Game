@@ -3,7 +3,7 @@
 ### Live webbsite [Here](https://meyaal.github.io/Game/)
 
 Inline-style: 
-![alt text](doc/images/Ska%CC%88rmavbild%202022-06-07%20kl.%2016.47.22.png)
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.39.50.png)
 
 
 # UX
@@ -46,11 +46,11 @@ I used the icons from Font Awsome Library. These icons seemed modern and easy to
 
 * ## Colors
 
-I used css colors from W3Schools for the game. 
+I used css colors from W3Schools and Coolors for the game.  
 
 * Background-color for body: #f5f5dc;
 
-* Background-color for the footer and header: #fff00f;
+* Background-color for the footer and header: #F6AE2D;
 
 * Color for the headings: #ff0000;
 
@@ -63,12 +63,39 @@ In addition Green and Red were used as a box-shadowing to indicate whether the u
 ## Existing Features
 
 ## Header
+* The Header located at the top of the page has a contrasting background color which helps itstand out.
+* The title of the game can be seen clearly.
+
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.54.09.png)
+
 
 ## Scoreboard
+* Also visible above is the scoreboard feature which allows the user to compete against the computer.
+* Both the player and the computer log their scores into the scoreboard.
+
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.57.11.png)
+
 
 ## Buttons
+* The buttons are three icons taken from Font Awsome Library.
+* The contrast between the black buttons and the body of the page make the buttons stand out.
+* The buttons change color to coral when hovered over or clicked.
+* The buttons also have a box shadow when clicked which helps indicate to the user if they were correct or not.
+* The refresh button reset the points when the user click on it. 
+
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.57.11.png)
+
+
+ 
 
 ## Result Massage
+* The result message indicates to the user what they picked.
+* A secondary message also indicates whether they won or lost.
+
+
 
 
 # Future Features
