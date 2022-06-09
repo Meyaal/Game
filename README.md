@@ -1,7 +1,5 @@
 #### This game was created to complete the second Milestone Project for Code Insitute's Full Stack Software Developer course. 
 
-
-
 ### Live webbsite [Here](https://meyaal.github.io/Game/)
 
 Inline-style: 
