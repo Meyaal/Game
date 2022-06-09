@@ -17,9 +17,6 @@ function getComputerChoice() {
    return choices[randomNumber];
 }
 
-// Gets computer choice
-(getComputerChoice());
-
 function convertToWord(word) {
    if (word === "rock") return "Rock";
    if (word === "paper") return "Paper";
