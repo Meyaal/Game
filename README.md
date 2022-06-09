@@ -29,10 +29,8 @@ Inline-style:
 
 # Requirements
 
-* The game is Easy to play and understand.
-* The game should work on different device and browser.
-* The game should be fun and competitive.
-* The game should be quick to load. 
+* To build an interactive front-end site that responds to user actions. The user should engage actively by altering data and how the site displays. The development process needs to be well documented through a version controls system such as GitHub and contain HTML5, CSS3 and JavaScript.
+ 
 
 # Design 
 
@@ -95,6 +93,10 @@ inline-style
 * The result message indicates to the user what they picked.
 * A secondary message also indicates whether they won or lost.
 
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2014.11.11.png)
+
+
 
 
 
@@ -122,6 +124,8 @@ inline-style
 
 [Font Awesome](https://fontawesome.com/) 
 
+[Coolors](https://coolors.co/)
+
 # Tools
 
 [Github](https://github.com/)
@@ -133,6 +137,43 @@ inline-style
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 [JSHint](https://jshint.com/)
+
+# Testing
+
+* I changed backgraound-color for header, footer and the refresh button from #ffff00 to #f6ae2d. That after I get feedback from my mentor. The idea is to do the color more a bit more pale so its easier on the eyes. 
+
+* When I play the game for second time, I get a message on the console, see following image
+
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2012.59.13.png)
+
+* I have checked the game in several browsers and using several different devices of varying screen size.
+
+* A challenege was to keep the integrity of the game as the while playing across smaller screens.
+
+# Aditional Testing
+
+### W3 HTML Validation
+inline-style
+![alt text](doc/images/screenshoot%20html%20validator.png)
+
+### W3 CSS Validation
+
+inline-style
+![alt text](doc/images/screenshoot%20css.png)
+
+### JSHint Testing
+
+inline-style
+![alt text](doc/images/JS%20Hint.png)
+![alt text](doc/images/JS%20Hint%202.png)
+
+### Lighthouse Testing
+
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2014.41.24.png)
+
+
 
 
 # Deployment
