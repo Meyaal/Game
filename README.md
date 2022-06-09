@@ -152,7 +152,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 [W3Schools](https://www.w3schools.com/) Help with CSS Colors.
 
-[whatsdev](https://www.youtube.com/watch?v=qipq1BV5myU) This tutorial was very helpful for mig to build my game. I followed it step by step. 
+[whatsdev](https://www.youtube.com/watch?v=qipq1BV5myU) This tutorial was very helpful for me to build my game. I followed it step by step. 
 
 [Github](https://github.com/) Help with add a limited number of tries before the game is over and a message about who won the game.
 
