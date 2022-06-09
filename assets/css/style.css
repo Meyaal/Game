@@ -17,7 +17,7 @@ header {
     font-style: italic;
     font-family: roboto, sans-serif;
     font-size: 1rem;
-    background-color: #fff00f;
+    background-color: #f6ae2d;
     padding: 5px 10px;
 }
 
@@ -99,7 +99,7 @@ h1, h2 {
   text-align: center;
   width: 20%;
   margin: 4px;
-  background-color: #fff00f;
+  background-color: #f6ae2d;
 }
 
 /* add style to footer */
@@ -113,14 +113,14 @@ footer {
     box-sizing: border-box;
     text-align: center;
     color: #ff0000;
-    background-color: #fff00f;
+    background-color: #f6ae2d;
 }
 /*add media queri */
 
 @media screen and (max-width: 285px){
 
   header {
-    font-size: .5rem
+    font-size: .5rem;
 }
 
  .choice {
