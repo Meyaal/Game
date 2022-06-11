@@ -96,6 +96,11 @@ inline-style
 inline-style
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2014.11.11.png)
 
+## Player message
+
+
+## Computer message
+
 
 
 
@@ -172,6 +177,13 @@ inline-style
 
 inline-style
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2014.41.24.png)
+
+### Manual Testing
+
+* The site has been tested and it's working on different browsers like Chrome, Firefox and Safari.
+Responsivness
+* The site is responsive on different screens sizes. It looks good and functions on standard screen sizes using devtools devise toolbar.
+
 
 
 
