@@ -1,6 +1,6 @@
 #### This game was created to complete the second Milestone Project for Code Insitute's Full Stack Software Developer course. 
 
-### Live webbsite [Here](https://meyaal.github.io/Game/)
+#### Live webbsite [Here](https://meyaal.github.io/Game/)
 
 Inline-style: 
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.39.50.png)
@@ -10,9 +10,9 @@ Inline-style:
 
 # User Goals
 * The game is easy to navigate and use on all platforms.
-* The game is fun and competitive.
-*  The game appearance is clear and has happy colors.
-*  The game should work without faults.
+*  The game is fun and competitive.
+*  The game appearance is clear and cheerful colours.
+*  The game works without faults.
 
 # User Stories
 * As a First time user, I want to easily understand the main purpose of the site.
@@ -69,7 +69,7 @@ inline-style
 
 
 ## Scoreboard
-* Also visible above is the scoreboard feature which allows the user to compete against the computer.
+* The scorebored is underneath the title in the middle of the top of the page. It's visible feature which allows the user to compete against the computer.
 * Both the player and the computer log their scores into the scoreboard.
 
 inline-style
@@ -81,28 +81,25 @@ inline-style
 * The contrast between the black buttons and the body of the page make the buttons stand out.
 * The buttons change color to coral when hovered over or clicked.
 * The buttons also have a box shadow when clicked which helps indicate to the user if they were correct or not.
+
+
+inline-style
+![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.57.11.png)
+
+## Refresh Button
+* The refresh button is located underneath the scorebored in the middle af the page. 
 * The refresh button reset the points when the user click on it. 
 
 inline-style
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2013.57.11.png)
 
 
- 
-
-## Result Massage
+ ## Result Massage
 * The result message indicates to the user what they picked.
 * A secondary message also indicates whether they won or lost.
 
 inline-style
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2014.11.11.png)
-
-## Player message
-
-
-## Computer message
-
-
-
 
 
 # Future Features
@@ -145,9 +142,9 @@ inline-style
 
 # Testing
 
-* I changed backgraound-color for header, footer and the refresh button from #ffff00 to #f6ae2d. That after I get feedback from my mentor. The idea is to do the color more a bit more pale so its easier on the eyes. 
+* I changed backgraound-color for header, footer and the refresh button from #ffff00 to #f6ae2d. That after I get feedback from my mentor. The idea is to do the color a more pale so its easier on the eyes. 
 
-* When I play the game for second time, I get a message on the console, see following image
+* When I play the game for second time, I get a message on the console, see following image: 
 
 inline-style
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-06-09%20kl.%2012.59.13.png)
@@ -156,7 +153,8 @@ inline-style
 
 * A challenege was to keep the integrity of the game as the while playing across smaller screens.
 
-# Aditional Testing
+# Code Validation
+The W3C Markup Validator, W3C CSS Validator Services and JShint were used to validate the project to ensure there were no syntax errors in the project.
 
 ### W3 HTML Validation
 inline-style
@@ -181,11 +179,12 @@ inline-style
 ### Manual Testing
 
 * The site has been tested and it's working on different browsers like Chrome, Firefox and Safari.
+
 Responsivness
-* The site is responsive on different screens sizes. It looks good and functions on standard screen sizes using devtools devise toolbar.
 
+* The site is responsive on different screens sizes. It looks good and functions on standard screen sizes using devtools devise toolbar. 
 
-
+* I tested the site on Iphone 11 and it worked well.
 
 
 # Deployment
