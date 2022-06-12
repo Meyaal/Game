@@ -208,6 +208,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 [Github](https://github.com/) Help with add a limited number of tries before the game is over and a message about who won the game.
 
+[Code Institute Portfolio Project Scope](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e8)
+
 # Acknowledgements
 
 I'll thank my mentor Martina Terlević for inspiration and support.
